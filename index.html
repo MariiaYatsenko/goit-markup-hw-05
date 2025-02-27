@@ -43,7 +43,7 @@
         <section class="business">
             <div class="container hero-container">
             <h1 class="business-h">Effective Solutions for Your Business</h1>
-            <button type="button" class="button-business">Order Service</button>
+            <button type="button" class="button-business" data-modal-open>Order Service</button>
             </div>
     </section>
     <!--Головна частина-->
@@ -455,9 +455,34 @@
 
     </ul>
 </div>
+<div class="footer-subscribe">
+    <p class="subfootertext">Subscribe</p>
+    <form class="subscribe">
+        <lable class="subscribe-label">
+            <input 
+            class="subscrb" 
+            type="submit" 
+            name="subscribe" 
+            placeholder="E-mail" 
+            required 
+            /></lable>
+
+            <button class="subscribe-btn" type="submit" name="subscribe">
+            Subscribe<svg class="subscribe-icon" width="24" height="24"><use href="./images/icons.svg#icon-Frame-3"></use>
+            </svg>
+        </button>
+    </form>
+</div>
 </div>
    
     </footer>
     
+    <!--Modal Overlay-->
+
+    <div class="backdrop is-open" data-modal>
+        <div class="modal"></div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
