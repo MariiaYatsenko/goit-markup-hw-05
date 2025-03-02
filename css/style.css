@@ -592,6 +592,7 @@ height: 40px;
     fill:#f4f4fd;
 }
 
+
 .subscribe-btn{
     font-family: "Roboto", sans-serif;
     display: block;
@@ -606,7 +607,7 @@ height: 40px;
     background: #4d5ae5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color: #fff;
+    color: #ffffff;
     min-width: 165px;
     font-weight: 500;
     line-height: 1.5;
@@ -628,6 +629,7 @@ height: 40px;
 .subscribe{
     display: flex;
     margin-top: 16px;
+    padding-left: 80px;
 gap: 24px;
 }
 
@@ -640,7 +642,17 @@ color: #fff;
 margin-bottom: 16px;
 }
 
-.subscrb{
+.subfootertext1 {
+    padding-left: 80px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.subscr{
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
@@ -832,6 +844,19 @@ border: 1px solid #4d5ae5;
     margin-bottom: 24px;
 }
 
+.visually-hidden{
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
+
 .privacy-label {
     font-size: 12px;
     line-height: 1.17;
@@ -840,7 +865,7 @@ border: 1px solid #4d5ae5;
 }
 
 .privacy-label-span {
-    width: 16px;
+   width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
